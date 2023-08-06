@@ -48,16 +48,16 @@ else:
 
 ONE_WORDS = ["MADARCHOD", "TUJHE", "PELTA", "HU", "BAAP", "SE", "BHIR", "GYA NA", "AB TERI", "MAA", "CHODTA HU",
              "TERI", "MAA", "KI", "CHUT", "MEIN", "MERA", "LUND", "AUR", "TERI", "MAA", "KI", "CHUT", "FAAD", "DUNGA", "CHUTIYE", "TERA", "BAAP",
-           "HU", "MAI", "BACHE", "SPEED", "PAKAD", "BHEN KE LAUDE", "TERI MAA", "KI CHUT", "MEIN", "KUTTE KI", "TATTI",
-           "MAI AB", "TERI ", "MAA", "KO", "KUTTIYA", "KI", "TARAH", "CHODUNGA", "TERI", "MAA", "KE", "BHOSDE",
-           "MEIN", "LOUD SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG", "SUNUNGA", "PURI",
-           "RAAT", "LAGATAR", "TERI", "BHEN", "KO", "AIDS KE", "PATIENT", "SE CHODWAUNGA", "TERI", "BHEN", "KE", "BOOBS",
-           "DABAUNGA","MADARCHOD","TERI","MAA","KAA","CHUT","MARUGA","RANDI","KEE","PILEE","TERI","MAA","KAA","BHOSDAA",
-           "MARU","SUAR","KEE","CHODE","TERE","GAAND","MEIN","BAWASIR","CHUTIYA","RANDI","KEE","PILLE","TERE","LUND",
-           "MEIN","NASBANDI","KRWA","DUNGA","BEHENCHOD","TERA","BAAP","APNI","PATNI","KO","MERE PAS","LAYA",
-           "THA","CHUDWANE","LAURE","AUR SUN","SHIVAM OP","BOLTE","BETA HAI TU","MERA","MAI SHIVAM","TERA","BAAP HU","RANDI KE",
-           "PILLE","GAANDU","TERII","BEHEN","KAAA","BOOBS","MEIN","INJECTION","GHUSERU","LAURE","TERA","APNA","DNA","KRWA",
-           "SHIVAM","TERA","BAAP","NIKLEGA","TERA","PURE","KHANDAN", "KO", "CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA","SUARR",
+           "HU", "MAI", "BACHE", "SPEED", "PAKAD", "BHENKE", "TERIMAA", "KI" , "CHUT", "MEIN", "KUTTE KI", "TATTI",
+           "MAI " , " AB", "TERI ", "MAA", "KO", "KUTTIYA", "KI", "TARAH", "CHOD" , "UNGA", "TERI", "MAA", "KE", "BHODE",
+           "MEIN", "ANA", "LUND", "DAAL", "KR", "T3RI", "MA", "KI", "CHUT",
+           "RAAT", "FAR", "DUGA", "RANDI", "KE", " PILLE ", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "TPKK", "TERI", "BHEN", "KE", "BOOBS",
+           "DABAUNGA","MADACHOD","AAJA","MAA","KAA","CHUT","MARUGA","RANDI","KEE","PILEE","TERI","MAA","KAA","BHOSDAA",
+           "TERI","BHN","KEE","CHODE","TERE","GAAND","MEIN","KALPA","BACCHA","EXCEPTION","PAPA","BHUL","RHAA","BETAA",
+           "AUKAT","ME","RH","LE","WRNA","TERI","BHN","KO","RANDI","KHAANE","ME" , "JAAKE" , "CHODUNGAA" AJA","MERESE",
+           "LADEGA","TERI","MAAA","KI" , "KAALI","CHUTTT","TERI","BHN" , "KA" , "BHOSDA","EXCEPTION","HUVAIII",","BAAP" , "HU","KALAP",
+           "PILLE","GAANDU","TERII","BEHEN","KAAA","BOOBS","MEIN","MERAA","LAURE","TERA","APNA","KALAP","KRWA",
+           ,"TERA","BAAP","NIKLEGA","TERA","PURE","KHANDAN", "KO", "CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA","SUARR",
            "KEEE","PILLEE","TERA","LAURA","KAAT KE","FEK","DUNGA","BAAP", "BOL", "MEREKO", "TERI", "BHEN", "KA", "GAAND", "CHAURA",
            "AUR", "TU", "BETAA","CHUSS","LEEE",
            "MERAA","LOURA","JAISE","ALUU","KAAA","PAKORA","TERI","MAAA","BHEN","GF","MAUSI","","DIN", "RAAT","SOTEE",
@@ -73,12 +73,7 @@ ONE_WORDS = ["MADARCHOD", "TUJHE", "PELTA", "HU", "BAAP", "SE", "BHIR", "GYA NA"
            "CHODU","SUAR","KEEE","PILEE","TERIII","MAAA","DAILYY","CHUDTTI","HAII","MADHARCHOD","AUR","TERI",
            "MAA","150","MEIN","BIK","JAATI","AUR","TERI","BHEN", "KE", "TIGHT", "CHUT KO",
            "CHOD CHOD", "KAR", "LOOSE", "KAR DUNGA","AUR","TERI","MAA KE","CHUT MEIN","HAATHI","KAA",
-           "LUND","DAAL","DUNGA","BEHEN","KE","LAURE","TU","SAALE","KUTTE","KE","CHODE","INSAAAN","TERI","LULLI",
-           "KUTTE","SE BHI","CHHOTI","SMJHA NA","MADHARCHOD","BAAP SE","BAKCHODI","NAHI","SHIVAM","TERA BAAP","SPEED","PAKAR",
-           "MERI","BHEN KE","LAURE","CHUD","GYA","NA","BETA","APNE BAAP","SE BAKCHODI","KABHI","NAHI","KARTE","SMJHA",
-           "NA","BACCHA","AUKAAT ME","RAHO","WARNA","KHANDAN","CHOD","DENGE","TUMHARI"]
-
-
+           "LUND","DAAL","DUNGA","BEHEN","KE","LAURE", "#FARAR" , "#DAFAN" , "SOJAO" , "GUYS"
 async def pyrone(client: Client, message: Message):
     chat_id = message.chat.id
     ruser = None
@@ -103,8 +98,8 @@ async def restart(_, __):
 # ADDING HANDLERS
 
 if M1:
-    M1.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
-    M1.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
+    M1.add_handler(MessageHandler(pyrone, filters.command(["HAAR JAEGA"], prefixes=None) & filters.me))
+    M1.add_handler(MessageHandler(restart, filters.command(["FARAR"], prefixes=None) & filters.me))
 
 if M2:
     M2.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
